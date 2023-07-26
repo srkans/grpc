@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "grpcClientTest";
+
+package ClientStream;
+
+service ClientStream {
+  rpc SendMessage (stream MessageRequest) returns (MessageResponse);
+}
+
+message MessageRequest {
+  string name = 1;
+  string message = 2;
+}
+
+message MessageResponse {
+  string message = 1;
+}

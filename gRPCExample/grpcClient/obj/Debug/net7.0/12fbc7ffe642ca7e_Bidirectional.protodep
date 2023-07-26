@@ -1,0 +1,2 @@
+obj\Debug\net7.0\Protos/Bidirectional.cs \
+obj\Debug\net7.0\Protos/BidirectionalGrpc.cs: Protos/Bidirectional.proto
