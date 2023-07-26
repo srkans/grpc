@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vdMIxUBYcbUHD+CQISLI6u+8qp/AsP6mK5s9gDBepRi0+dh6o50gkyBCldrYjt2DhFNDUVvA2Pf3K/cUVxnEEw==",
+  "dgSpecHash": "PrI9bvG3jSIev1PlrGtRtNhtdB+r34+5AgmhSzVKHA/IR99kSalnxaTVADSDjsIicvuYjGDH0ZvKrULEtNyO4g==",
   "success": true,
   "projectFilePath": "F:\\grpc\\grpc-streaming\\grpcDownloadClient\\grpcDownloadClient.csproj",
   "expectedPackageFiles": [

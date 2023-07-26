@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "F:\\grpc\\grpc-streaming\\grpcServer\\wwwroot\\files\\Docker Desktop Installer.exe",
-      "PackagePath": "staticwebassets\\files\\Docker Desktop Installer.exe"
+      "Id": "F:\\grpc\\grpc-streaming\\grpcServer\\wwwroot\\files\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
+      "PackagePath": "staticwebassets\\files\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.grpcServer.props",

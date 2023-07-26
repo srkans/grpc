@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Protobuf Include="Protos\fileTransfer.proto" GrpcServices="Client" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Google.Protobuf" Version="3.24.0-rc2" />
     <PackageReference Include="Grpc.Net.Client" Version="2.55.0" />
     <PackageReference Include="Grpc.Tools" Version="2.56.2">

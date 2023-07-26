@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fUuTyXNY1xBFZ3IbTnt1ulk9OXb75OOdWZWNOCxInSo=",
+  "Hash": "7t5Ot/ebY07cSR52E7b1I076QSishYFGTiypGIjih/o=",
   "Source": "grpcServer",
   "BasePath": "_content/grpcServer",
   "Mode": "Default",
@@ -15,23 +15,5 @@
       "Pattern": "**"
     }
   ],
-  "Assets": [
-    {
-      "Identity": "F:\\grpc\\grpc-streaming\\grpcServer\\wwwroot\\files\\Docker Desktop Installer.exe",
-      "SourceId": "grpcServer",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\grpc\\grpc-streaming\\grpcServer\\wwwroot\\",
-      "BasePath": "_content/grpcServer",
-      "RelativePath": "files/Docker Desktop Installer.exe",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\files\\Docker Desktop Installer.exe"
-    }
-  ]
+  "Assets": []
 }
