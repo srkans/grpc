@@ -32,3 +32,4 @@ F:\grpc\grpc-streaming\grpcServer\obj\Debug\net6.0\refint\grpcServer.dll
 F:\grpc\grpc-streaming\grpcServer\obj\Debug\net6.0\grpcServer.pdb
 F:\grpc\grpc-streaming\grpcServer\obj\Debug\net6.0\grpcServer.genruntimeconfig.cache
 F:\grpc\grpc-streaming\grpcServer\obj\Debug\net6.0\ref\grpcServer.dll
+F:\grpc\grpc-streaming\grpcServer\bin\Debug\net6.0\grpcServer.staticwebassets.runtime.json

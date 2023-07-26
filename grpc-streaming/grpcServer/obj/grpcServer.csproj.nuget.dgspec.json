@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\grpc\\grpc-streaming\\grpcServer\\grpcServer.csproj": {}
+    "F:\\grpc\\grpc-streaming\\grpcServer\\grpcServer.csproj": {}
   },
   "projects": {
-    "f:\\grpc\\grpc-streaming\\grpcServer\\grpcServer.csproj": {
+    "F:\\grpc\\grpc-streaming\\grpcServer\\grpcServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\grpc\\grpc-streaming\\grpcServer\\grpcServer.csproj",
+        "projectUniqueName": "F:\\grpc\\grpc-streaming\\grpcServer\\grpcServer.csproj",
         "projectName": "grpcServer",
-        "projectPath": "f:\\grpc\\grpc-streaming\\grpcServer\\grpcServer.csproj",
+        "projectPath": "F:\\grpc\\grpc-streaming\\grpcServer\\grpcServer.csproj",
         "packagesPath": "C:\\Users\\serka\\.nuget\\packages\\",
-        "outputPath": "f:\\grpc\\grpc-streaming\\grpcServer\\obj\\",
+        "outputPath": "F:\\grpc\\grpc-streaming\\grpcServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\serka\\AppData\\Roaming\\NuGet\\NuGet.Config",

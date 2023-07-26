@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "951bj/GqbsC4/hR1xILMMX7b7QRfzeGMfZ8sIXwigRk=",
+  "Hash": "fUuTyXNY1xBFZ3IbTnt1ulk9OXb75OOdWZWNOCxInSo=",
   "Source": "grpcServer",
   "BasePath": "_content/grpcServer",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "grpcServer\\wwwroot",
+      "Source": "grpcServer",
+      "ContentRoot": "F:\\grpc\\grpc-streaming\\grpcServer\\wwwroot\\",
+      "BasePath": "_content/grpcServer",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "F:\\grpc\\grpc-streaming\\grpcServer\\wwwroot\\files\\Docker Desktop Installer.exe",
+      "SourceId": "grpcServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\grpc\\grpc-streaming\\grpcServer\\wwwroot\\",
+      "BasePath": "_content/grpcServer",
+      "RelativePath": "files/Docker Desktop Installer.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Docker Desktop Installer.exe"
+    }
+  ]
 }
