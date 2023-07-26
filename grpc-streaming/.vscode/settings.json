@@ -1,0 +1,3 @@
+{
+    "dotnet.defaultSolution": "grpc-streaming.sln"
+}
