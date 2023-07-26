@@ -19,6 +19,8 @@ if(app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseStaticFiles();
+
 app.UseRouting();
 
 // Configure the HTTP request pipeline.
