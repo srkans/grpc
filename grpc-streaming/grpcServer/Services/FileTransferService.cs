@@ -1,3 +1,4 @@
+using Google.Protobuf;
 using Google.Protobuf.WellKnownTypes;
 using Grpc.Core;
 
@@ -33,7 +34,7 @@ namespace grpcFileTransferServer.Services
 
                 while(await requestStream.MoveNext())
                 {
-                    if(count == 0)
+                    if(count++ == 0) 
                     {
                         fileStream = new FileStream($"{path}/{requestStream.Current.Info.FileName}{requestStream.Current.Info.FileExtension}", FileMode.CreateNew);
 
@@ -49,7 +50,7 @@ namespace grpcFileTransferServer.Services
             }
             catch(Exception e)
             {
-                _logger.LogError($"Hata olustu : {e.Message}");
+                _logger.LogError($"Error message : {e.Message}");
             }
 
             await fileStream.DisposeAsync();
@@ -61,7 +62,27 @@ namespace grpcFileTransferServer.Services
 
         public override async Task FileDownload(FileInfo request, IServerStreamWriter<BytesContent> responseStream, ServerCallContext context)
         {
-            
+            string path = Path.Combine(_webHostEnvironment.WebRootPath,"files");
+
+            using FileStream fileStream = new FileStream($"{path}/{request.FileName}{request.FileExtension}",FileMode.Open, FileAccess.Read);
+
+            byte[] buffer = new byte[2048]; //max 2048 tanımlanabiliyor her bir buffer
+
+            BytesContent content = new BytesContent
+            {
+                FileSize = fileStream.Length,
+                Info = new grpcFileTransferServer.FileInfo{FileName = Path.GetFileNameWithoutExtension(fileStream.Name), FileExtension = Path.GetExtension(fileStream.Name)},
+                ReadedByte = 0
+            };
+
+            while((content.ReadedByte = await fileStream.ReadAsync(buffer, 0, buffer.Length))>0)
+            {
+                content.Buffer = ByteString.CopyFrom(buffer);
+
+                await responseStream.WriteAsync(content);
+            }
+
+            fileStream.Close();//dispose surecinde close ediliyor aslinda fazladan yazdik
         }
     }
 }
